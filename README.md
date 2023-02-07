@@ -1,2 +1,2 @@
-# Qualitygate_AWS
-This is a quality gate and AWS Pipeline project
+# patients_geolocation
+Project to locate patients in order to facilitate their home appointments by medical specialists
