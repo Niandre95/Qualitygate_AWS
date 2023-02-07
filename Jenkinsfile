@@ -42,11 +42,11 @@ pipeline {
             }
             steps {
                withSonarQubeEnv('sonarQubes') {
-                   sh '''mvn sonar:sonar -Dsonar.projectKey=Niandre95_simple_project \
+                   sh '''mvn sonar:sonar -Dsonar.projectKey=Niandre95_Qualitygate_AWS \
                    -Dsonar.organization=niandre95 \
-                   -Dsonar.projectName=Niandre95_simple_project \
+                   -Dsonar.projectName=Niandre95_Qualitygate_AWS \
                    -Dsonar.host.url=https://sonarcloud.io \
-                   -Dsonar.login=5d6645735c446ba0da665a82856caae970c8a68d \
+                   -Dsonar.login=17c3cb99ad1707930ececa19e2d611c272bc766b \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src \
                    -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/ \
